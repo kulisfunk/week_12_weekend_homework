@@ -1,0 +1,23 @@
+{
+  "name": "weekend_homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kulisfunk/week_12_weekend_homework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kulisfunk/week_12_weekend_homework/issues"
+  },
+  "homepage": "https://github.com/kulisfunk/week_12_weekend_homework#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
