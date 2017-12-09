@@ -1,8 +1,43 @@
+body {
+  background-image: url("saturn.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+header {background-color: white;
+display: inline-flex;
+width: 100%;}
+
+#logo {
+  height: 100px;
+  width: 140px;
+  float: right;
+  border-radius: 50%;
+
+}
+.search {
+  align-self: flex-end;
+}
+
 .thumbnail {
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
+
 }
 
 select {
   width: 600px;
+}
+
+#picture-title {
+  color: white;
+}
+
+#picture-description {
+  color: white;
+}
+
+#picture-link {
+  color: lightblue;
 }

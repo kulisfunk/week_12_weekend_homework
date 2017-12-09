@@ -20,11 +20,13 @@ var search = function(){
   var search1 = document.getElementById('search1').value;
   var search2 = document.getElementById('search2').value;
   var search3 = document.getElementById('search3').value;
+
   if (search3 === ''){
-    var url = "https://images-api.nasa.gov/search?q=" + search1.value + "&description=" + search2.value;
+    var url = "https://images-api.nasa.gov/search?q=" + search1 + "&description=" + search2;
   }else{
-  var url = "https://images-api.nasa.gov/search?q=" + search1.value + "&description=" + search2.value + "&media_type=" + search3.value
+  var url = "https://images-api.nasa.gov/search?q=" + search1 + "&description=" + search2 + "&media_type=" + search3;
 }
+console.log(url);
   makeRequest(url, requestComplete);
   document.getElementById('search1').value = '';
   document.getElementById('search2').value = '';
@@ -48,6 +50,7 @@ var requestComplete = function(){
   if(items.length ===  0){
     return;
   }
+  console.log("new stuff coming");
   console.log(items);
   populateSelect(items);
 
