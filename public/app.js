@@ -1,7 +1,7 @@
 var app = function(){
   console.log('app running');
 
-var url = "https://images-api.nasa.gov/search?q=jupiter&description=&media_type=image"
+var url = "https://images-api.nasa.gov/search?q=earth&description=&media_type=image"
 
 
 
